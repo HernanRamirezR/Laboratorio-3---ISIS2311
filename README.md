@@ -28,39 +28,39 @@ En ambos casos un ejemplo de partido es: "Partido A vs B", para que funcione cor
 ### 3.1 stdio.h
 Permite operaciones de entrada/salida:
 
-printf()
-perror()
+printf()   
+perror()   
 
 ### 3.2 stdlib.h
 Manejo general del sistema:
 
-exit()
-funciones de utilidad
+exit()   
+funciones de utilidad   
 
 ### 3.3 string.h
 Manipulación de strings:
 
-strcpy() → copiar strings
-strcmp() → comparar strings
-strtok() → dividir mensajes
-strlen() → obtener longitud
+strcpy() → copiar strings   
+strcmp() → comparar strings   
+strtok() → dividir mensajes   
+strlen() → obtener longitud   
 
 ### 3.4 unistd.h
 Funciones del sistema:
 
-close() → cerrar sockets
+close() → cerrar sockets   
 
 ### 3.5 arpa/inet.h
 Funciones para redes:
 
-htons() → conversión de puerto
-inet_addr() → convertir IP
+htons() → conversión de puerto   
+inet_addr() → convertir IP   
 
 ### 3.6 sys/select.h
-Multiplexación de I/O:
+Multiplexación de I/O:   
 
-fd_set → conjunto de sockets
-FD_ZERO() → limpiar conjunto
-FD_SET() → agregar socket
-FD_ISSET() → verificar actividad
+fd_set → conjunto de sockets   
+FD_ZERO() → limpiar conjunto   
+FD_SET() → agregar socket   
+FD_ISSET() → verificar actividad   
 
