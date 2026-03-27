@@ -18,12 +18,10 @@ gcc subscriber_udp.c -o subscriberUDP
 ### 2.2 Ejecución del Publisher
 ./publisherTCP \< partido \> o ./publisherUDP \< partido \>
 
-Un ejemplo de partido es: "Partido A vs B"
-
 ### 2.3 Ejecución del Subscriber
 ./publisherTCP \< partido \> o ./publisherUDP \< partido \>
 
-Un ejemplo de partido es: "Partido A vs B"
+En ambos casos un ejemplo de partido es: "Partido A vs B", para que funcione correctamente el partido del subscriber debe coincidir con el partido de un publisher. En caso de querer varios subscribers o publishers debe hacerse desde terminales diferentes. 
 
 ## 3. Librerías Utilizadas
 
